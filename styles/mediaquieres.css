@@ -1,0 +1,71 @@
+@media screen and (max-width: 744px) {
+    
+    .cabecalho_menu-hamburguer,  .lista-menu, .container_botao:checked, .lista-menu_item, .lista-menu_titulo, .container_botao .lista-menu_link {
+        visibility: hidden;
+     }
+ 
+ 
+         .cabecalho_menu-hamburguer {
+             width: 0%;
+             height: 0%;
+         }
+     
+     .cabecalho {
+         font-size: 25px;
+         color: white
+     }
+     .opções {
+         display: flex;
+         color: white;
+         font-size: 25px;
+         font-weight: 700;
+         text-decoration: none;
+     }
+ 
+     .opções-item {
+         padding: 0 1em;
+     }
+
+    .banner_titulo {
+        font-size: 60px;
+    }
+
+    .banner_texto {
+        font-size: 30px;
+    }
+
+    .email {
+        padding: 1em 2em;
+        text-align: center;
+        justify-content: center ;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+        .banner {
+            background-image: url("../img/rosa.png");
+            color: white;
+            text-align: center;
+            width: auto;
+            height:auto;
+            padding: 23%;
+        
+        }
+
+        .carrossel-titulo {
+            font-size: 40px;
+        }
+    
+        .carrossel-sub {
+            font-size: 30px;
+            padding-top: 20px;
+        }
+    
+        .swiper-slide img {
+            width: 540px;
+            height: 540px;
+        }
+
+        
+    }
