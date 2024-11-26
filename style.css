@@ -4,16 +4,18 @@
 @import url("styles/promovendo.css");
 @import url("styles/rodapé.css");
 @import url("styles/contato.css");
+@import url("styles/abordagem.css");
+@import url("styles/quiz.css");
 
 
 :root {
-    --cor-de-fundo: #c090ff;
+    --cor-de-fundo: #173343;
     --branco: white;
     --fonte-principal: "Poppins";
 }
 
 body {
-    background-color: #e3e4e3;
+    background-color: #f5ffe7;
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
@@ -30,6 +32,18 @@ body {
     height: 100%;
     background-image: url("../img/seta.png");
         display: inline-block;
+}
+
+.espaco1 {
+    padding-top: 4em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.espaco1 img {
+    padding-top: 1em;
+    height: 24px;
+    width: 30px;
 }
 
 .espaco2 {

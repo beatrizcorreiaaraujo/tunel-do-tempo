@@ -1,0 +1,30 @@
+.banner {
+    background-image: url("../img/eee.png");
+    color: white;
+    text-align: center;
+    width: auto;
+    height:auto;
+    padding: 23%;
+
+}
+
+.banner_titulo {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Abril Fatface";
+    text-transform: uppercase;
+}
+
+.banner_texto {
+    font-weight: 500;
+    font-size: 80px;
+}
+
+.arrastar {
+    font-weight: 500;
+    color: white;
+    padding-top: 10em ;
+    padding-bottom: 13em;
+    text-align: center;
+    justify-content: center;
+}
